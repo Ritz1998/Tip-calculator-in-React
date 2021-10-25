@@ -1,0 +1,117 @@
+main {
+  
+ 
+  background-color: #FAEEE0;
+  width: 700px;
+  height: 550px;
+  position: absolute;
+  border-radius: 8px;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  overflow: auto;
+
+  
+  
+ 
+}
+
+.ServiceName{
+  display:  inline-block;
+  font-weight: bold;
+  text-align: center;
+
+}
+.CustomerName{
+  margin-left: 40px;
+}
+.Heading{
+  border-radius: 8px;
+  top: -20px;
+  width: 100%;
+  text-align: center;
+  background-color: rgb(100, 207, 240);
+  
+  
+
+}
+.billamt{
+  font-weight: bold;
+  text-align: center;
+  
+
+}
+.billamt input{
+  padding: 5px;
+}
+.billinfo{
+  margin-top: 18px;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  
+}
+.Customerlist{
+  text-align: center;
+
+}
+.Cname{
+  margin-top: 25px;
+  background-color: rgb(202, 192, 192);
+
+  
+}
+
+
+.Select{
+  padding: 4px;
+ width: 183px;
+ align-self: center;
+ margin-top: 18px;
+  
+}
+.addcustomer{
+  display: flex;
+  justify-content: center;
+  margin: 50px;
+}
+
+
+.btn1{
+  background-color: rgb(149, 196, 149);
+  margin-bottom: 18px;
+ 
+  padding: 5px;
+  box-shadow: 0 0 10px black;
+  font-weight: bold;
+  border-radius: 5px;
+
+  
+}
+.footer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  /* margin: 16px; */
+}
+.table{
+  /* position: absolute; */
+  margin: 15px;
+  text-align: center;
+  
+}
+.btn{
+  background-color: rgba(62, 62, 202, 0.699);
+  font-weight: bold;
+  padding: 5px;
+ 
+}
+.footer{
+  background-color: rgba(3, 0, 0, 0.808);
+  color: whitesmoke;
+  
+}
+.Table{
+  margin: auto
+}
